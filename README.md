@@ -1,9 +1,8 @@
 # **Автор:** Глеб Телицин (GaussArc)
 
 # Currency-Converter
-Конвертор валют - GUI-приложение «Currency Converter» с использованием внешнего API, сохранением истории и Git.
-
-Простое приложение для конвертации валют с графическим интерфейсом (Tkinter). Использует бесплатное API [ExchangeRate-api](https://exchangerate-api.com). Сохраняет историю конвертаций в JSON-файл.
+Конвертор валют:
+Простое GUI-приложение приложение для конвертации валют с графическим интерфейсом (Tkinter). Использует бесплатное API [ExchangeRate-api](https://exchangerate-api.com). Сохраняет историю конвертаций в JSON-файл.
 
 ## Как получить API-ключ
 1. Перейдите на [exchangerate-api.com](https://exchangerate-api.com).
@@ -18,4 +17,5 @@
    pip install requests
 
 ## Запустить программу можно с помощью команды
+```bash
 python currency_converter.py
